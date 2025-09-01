@@ -19,7 +19,7 @@ const Header: React.FC<HeaderProps> = ({ activeView, onViewChange }) => {
               <button onClick={() => onViewChange('editor')} className={`flex items-center gap-3 transition-colors p-2 -m-2 rounded-lg ${activeView === 'editor' ? 'text-white' : 'text-gray-400 hover:text-white hover:bg-white/10'}`}>
                 <SparkleIcon className="w-6 h-6 text-blue-400" />
                 <h1 className="text-xl font-bold tracking-tight">
-                  Aice PS
+                  Nano PS
                 </h1>
               </button>
 
@@ -42,18 +42,7 @@ const Header: React.FC<HeaderProps> = ({ activeView, onViewChange }) => {
               </button>
 
           </div>
-          <div className="flex items-center gap-2">
-            <a
-              href="https://github.com/aigem/aice_ps"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 text-gray-400 rounded-full hover:bg-white/10 hover:text-white transition-colors"
-              aria-label="GitHub Repository"
-              title="GitHub Repository"
-            >
-              <GitHubIcon className="w-6 h-6" />
-            </a>
-          </div>
+
       </div>
     </header>
   );
