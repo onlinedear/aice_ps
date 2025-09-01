@@ -53,7 +53,7 @@ const StartScreen: React.FC<StartScreenProps> = ({ onFileSelect, onImageGenerate
   return (
     <div className="flex flex-col items-center gap-6 animate-fade-in w-full max-w-5xl mx-auto text-center p-8">
       <h1 className="text-5xl font-extrabold tracking-tight text-gray-100 sm:text-6xl md:text-7xl">
-        Nano Banana <span className="text-blue-400">化繁为简</span>
+        Nano Banana
       </h1>
       <div className="max-w-2xl text-lg text-gray-400 md:text-xl flex flex-col gap-2">
         <p>最强改图模型&好用配套应用</p>
